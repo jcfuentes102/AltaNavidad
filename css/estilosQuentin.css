@@ -1,0 +1,239 @@
+/*Modelo de cajas Responsive*/
+body{
+    margin:0;
+    overflow-x: hidden;
+    }
+#cont {
+    width:100%;
+    height:2500px;
+    }
+
+#header {
+    width:100%;
+    height:5%;
+    background-image: url(../images/logo.png);
+    background-color: #FFFFFF;
+    background-repeat:no-repeat;
+    }
+#main {
+    width:100%;
+    height:95%;
+    }
+
+#encabezado{
+    width:100%;
+    height:36%;
+    background-image: url(../images/encabezadoq.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#datos{
+    width:100%;
+    height:55%;
+}
+#change{
+    width:5%;
+    height:10%;
+    position:fixed;
+    bottom:100px;
+    left:5%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: skyblue;
+    background-color: #dcdcdc;
+    background-image: url(../images/quentin.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#change:hover{
+    width:5%;
+    height:10%;
+    position:fixed;
+    bottom:100px;
+    left:5%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orange;
+    background-color: #dcdcdc;
+    background-image: url(../images/david.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#footer {
+    width:100%;
+    height:25%;
+    background-color:skyblue;
+    }
+.frase i{
+    color:grey;
+    position: relative;
+    font-size: 2em;
+    top:-150px;
+    left:50%;
+}
+
+/*Estilos*/
+
+.title{
+    font-size: 2.5em;
+    position:relative;
+    margin-left: 10%;
+    top: 30%;
+    font-family:Code-Light;
+}
+b{
+    color:skyblue;
+}
+a, a:visited{
+    text-decoration: none;
+}
+.enlaces a{
+    float:right;
+    font-size: 1.5em;
+    padding-left:5%;
+    position:relative;
+    top:30%;
+    right: 5%;
+    font-family: "Free Monospaced Bold";
+    color:orange;
+    border-bottom-style: solid;
+    border-bottom-color: skyblue;
+}
+
+.selected, .enlaces a:hover{
+    color: gold;
+}
+
+#footer a{
+    color:aliceblue;
+    margin-left: 1%;
+    position:relative;
+    left:35%;
+}
+
+#fotodatos{
+    width:25%;
+    height:25%;
+    background-image: url(../images/quentin.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.name{
+    font-family: Code-Light;
+    font-size: 10rem;
+    color:skyblue;
+    position:relative;
+    top: -85px;
+}
+#name{
+    position:relative;
+    bottom:15%;
+    margin-left:35%;
+}
+#img1{
+    background-image: url(../images/Modern-Japanese-Architecture-House-440.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 30%;
+    float:right;
+    margin-right: 3%;
+}
+#img2{
+    background-image: url(../images/2.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+    float:left;
+}
+
+p{
+    font-family:"Free Monospaced Bold";
+    margin-left: 3%;
+    text-indent: 3%;
+}
+#f1{
+    background-image: url(../images/shot.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    position: relative;
+    top:43%;
+    left:10%;
+}
+#f2{
+    background-image: url(../images/award-awwwards-hm.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    position: relative;
+    top:-30px;
+    left: 65%;
+    display: inline-block;
+}
+
+@media only screen 
+  and (min-width: 960px) and (max-width: 1524px) {
+.title{
+    font-size: 2.5em;
+    margin-left: 20%;
+}
+.enlaces a{
+    font-size: 1em;
+    left:0.1px;
+}
+.name{
+    font-size: 5rem;
+}
+#datos{
+      position:relative;
+      top:-300px;
+}
+#cont{
+    height: 2200px;
+  }
+#change{
+    width:10%;
+    height:10%;
+    border-color: orange;
+    background-image: url(../images/david.png);
+}
+#change:hover{
+    width:10%;
+    height:10%;
+    border-color: orange;
+    background-image: url(../images/david.png);
+}
+.frase i{
+    left:25%;
+}
+#f1{
+    background-image: url(../images/shot.png);
+    top:25%;
+}
+#f2{
+    top:-250px;
+    left: 65%;
+}
+      #footerLIST{
+          position:relative;
+          top:-150px;
+      }
+  }
+
+
+
+
+
+@font-face {font-family:"Code-Light";src:url("../fonts/CODE_Light.eot?") format("eot"),url("../fonts/CODE_Light.woff") format("woff"),url("../fonts/CODE_Light.ttf") format("truetype"),url("../fonts/CODE_Light.svg#Code-Light") format("svg");font-weight:normal;font-style:normal;}
+
+@font-face {font-family:"Free Monospaced Bold";src:url("../fonts/FreeMonoBold.eot?") format("eot"),url("../fonts/FreeMonoBold.woff") format("woff"),url("../fonts/FreeMonoBold.ttf") format("truetype"),url("../fonts/FreeMonoBold.svg#FreeMonoBold") format("svg");font-weight:normal;font-style:normal;}

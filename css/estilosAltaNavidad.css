@@ -1,0 +1,309 @@
+/*Modelo de cajas Responsive*/
+body{
+    margin:0;
+    }
+#cont {
+    width:100%;
+    height:927px;
+    }
+#header {
+    width:100%;
+    height:15%;
+    background-image: url(../images/logo.png);
+    background-color: #FFFFFF;
+    background-repeat:no-repeat;
+    }
+#main {
+    width:100%;
+    height:83%;
+    }
+#footer {
+    width:100%;
+    height:2%;
+    background-color:grey;
+    }
+    
+#david {
+    width:50%;
+    height:100%;
+    background-image:url(../images/davidfondo.jpg);
+    background-repeat:no-repeat;
+    float:left;
+    color:orange;
+    background-color: #dcdcdc;
+    background-position:center;
+    background-repeat: no-repeat;
+    }
+#quentin {
+    width:50%;
+    height:100%;
+    float:right;
+    background-image:url(../images/quentinfondo.jpg);
+    color:#4283c5;
+    background-color: #dcdcdc;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+/*Estilos*/
+.foto{
+    width:50%;
+    height:50%;
+    border-radius:50%;
+    position:relative;
+    top:50px;
+    left:25%;
+    }
+#foto1{
+    background-image:url(../images/david.png);
+    border-style: solid;
+    border-color: orange;
+    background-color: #dcdcdc;
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#foto2{
+    background-image:url(../images/quentin.png);
+    border-style: solid;
+    border-color: skyblue;
+    background-color: #dcdcdc;
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.texto {
+    position:relative;
+    top:10%;
+    }
+.nombre {
+    position:relative;
+    top:10%;
+    text-align:center;
+    font-family:Code-Light;
+    font-weight: 1000;
+    }
+.descrip{
+    text-indent:10%;
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 1.5em;
+    font-family:"Free Monospaced Bold";
+    background-color: aliceblue;
+    opacity: 0.5;
+    }
+.title{
+    font-size: 3em;
+    position:relative;
+    margin-left: 10%;
+    top: 30%;
+    font-family:Code-Light;
+}
+b{
+    color:skyblue;
+}
+a, a:visited{
+    text-decoration: none;
+}
+a#davida{
+    color:orange;}
+a#davida:hover{
+    color:gold;
+}
+a#quentina{
+    color:#4283c5;}
+a#quentina:hover{
+    color:skyblue;
+}
+.enlaces a{
+    float:right;
+    font-size: 1.5em;
+    padding-left:5%;
+    position:relative;
+    top:30%;
+    right: 5%;
+    font-family: "Free Monospaced Bold";
+    color:orange;
+    border-bottom: solid;
+    border-color: skyblue;
+}
+
+.selected, .enlaces a:hover{
+    color: gold;
+}
+
+#footer a{
+    color:aliceblue;
+    margin-left: 1%;
+    position:relative;
+    left:35%;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #FFF;
+    background-color: #3276B1;
+    border-color: #285E8E;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #357EBD;
+}
+.btn-warning {
+    color: #FFF;
+    top:1px;
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #FFF;
+    background-color: #47A447;
+    border-color: #398439;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn-success {
+    color: #FFF;
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    color: #FFF;
+    background-color: #D2322D;
+    border-color: #AC2925;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn-danger {
+    color: #FFF;
+    background-color: #D9534F;
+    border-color: #D43F3A;
+}
+
+@media only screen 
+  and (min-width: 960px) and (max-width: 1524px) {
+.descrip{
+    font-size: 1em;
+    }
+.title{
+    font-size: 2.5em;
+    margin-left: 20%;
+}
+.enlaces a{
+    font-size: 1em;
+}
+.foto{
+    width:50%;
+    height:30%;
+    border-radius:50%;
+    position:relative;
+    top:50px;
+    left:25%;
+    }
+iframe{
+    position:relative;
+    left:30%;
+    top:-350px;;
+}
+  }
+  .enlace{
+      color:white;
+      font-family: Code-Light;
+  }
+  
+  #enlacesedit{
+      position:absolute;
+      left:600px;
+      top:600px;
+  }
+.fbimagen{
+    height:60px;
+    width:60px;
+    position:absolute;
+    top:610px;
+    left:220px;
+}
+
+.profileimg{
+    width:75px;
+    height:75px;
+    
+}
+
+.imgcontent{
+    border-radius: 50%;
+    border: 5px solid #e7a61a;
+    width:250px;
+    height:250px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imgcontentposicion{
+    position:relative;
+    left:300px;
+    top:50px;
+}
+
+
+#isesion{
+    position:absolute;
+    left:1200px;
+    top:150px;
+}
+
+#forgetform{
+    position:absolute;
+    left:1250px;
+    top:230px;
+}
+
+
+@font-face {font-family:"Code-Light";src:url("../fonts/CODE_Light.eot?") format("eot"),url("../fonts/CODE_Light.woff") format("woff"),url("../fonts/CODE_Light.ttf") format("truetype"),url("../fonts/CODE_Light.svg#Code-Light") format("svg");font-weight:normal;font-style:normal;}
+
+@font-face {font-family:"Free Monospaced Bold";src:url("../fonts/FreeMonoBold.eot?") format("eot"),url("../fonts/FreeMonoBold.woff") format("woff"),url("../fonts/FreeMonoBold.ttf") format("truetype"),url("../fonts/FreeMonoBold.svg#FreeMonoBold") format("svg");font-weight:normal;font-style:normal;}
